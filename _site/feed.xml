@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-01T12:21:10+08:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-01T15:15:52+08:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/06/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-06-01T10:50:28+08:00</published><updated>2017-06-01T10:50:28+08:00</updated><id>http://localhost:4000/jekyll/update/2017/06/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/06/01/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -11,4 +11,161 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">RMI Principle</title><link href="http://localhost:4000/blog/2017/06/01/RMI_Principle.html" rel="alternate" type="text/html" title="RMI Principle" /><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><id>http://localhost:4000/blog/2017/06/01/RMI_Principle</id><content type="html" xml:base="http://localhost:4000/blog/2017/06/01/RMI_Principle.html">&lt;p&gt;This article is talk about &lt;code class=&quot;highlighter-rouge&quot;&gt;RMI principle&lt;/code&gt;, source code is &lt;code class=&quot;highlighter-rouge&quot;&gt;openjdk-7-fcs-src-b147-27_jun_2011.zip&lt;/code&gt; .&lt;/p&gt;
+
+&lt;p&gt;Let start, in oracle docs &lt;a href=&quot;http://docs.oracle.com/javase/7/docs/technotes/guides/rmi/index.html&quot;&gt;http://docs.oracle.com/javase/7/docs/technotes/guides/rmi/index.html&lt;/a&gt;, in &lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.oracle.com/technetwork/java/javase/tech/index-jsp-136424.html&lt;/code&gt; we talk about Object Serialization. so this is question about it. How Client Object Serialization ? and Server Obejct Deserialization ?
+next is demo about serialization&lt;/p&gt;</content><author><name></name></author><summary type="html">This article is talk about RMI principle, source code is openjdk-7-fcs-src-b147-27_jun_2011.zip .</summary></entry><entry><title type="html">Object serialization and Deserialization</title><link href="http://localhost:4000/blog/2017/06/01/ObjectSerialization.html" rel="alternate" type="text/html" title="Object serialization and Deserialization" /><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><id>http://localhost:4000/blog/2017/06/01/ObjectSerialization</id><content type="html" xml:base="http://localhost:4000/blog/2017/06/01/ObjectSerialization.html">&lt;p&gt;This article is talk about &lt;code class=&quot;highlighter-rouge&quot;&gt;RMI principle&lt;/code&gt;, source code is &lt;code class=&quot;highlighter-rouge&quot;&gt;openjdk-7-fcs-src-b147-27_jun_2011.zip&lt;/code&gt; .&lt;/p&gt;
+
+&lt;p&gt;Let start, no matter &lt;code class=&quot;highlighter-rouge&quot;&gt;RMI&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;Hessien&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;Dubbo&lt;/code&gt; etc . I think they all usr Object serialization and deserialization. next is about rmi serialization
+and deserialization.&lt;/p&gt;
+
+&lt;p&gt;we talk about Object Serialization. so this is question about it. How Client Object Serialization ? and Server Obejct Deserialization ?
+next is demo about serialization&lt;/p&gt;
+
+&lt;p&gt;Student.java&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.io.Serializable;
+
+public class Student implements Serializable {  
+  
+public static  String countryName=&quot;china&quot;;  
+private int id;  
+private String name;  
+private String sex;  
+  
+public String getSex() {  
+  
+    return sex;  
+}  
+  
+public void setSex(String sex) {  
+    this.sex = sex;  
+}  
+  
+public int getId() {  
+    return id;  
+}  
+  
+public void setId(int id) {  
+    this.id = id;  
+}  
+  
+@Override  
+public String toString() {  
+    return &quot;student{&quot; +  
+            &quot;id=&quot; + id +  
+            &quot;, name='&quot; + name + '\'' +  
+            '}';  
+}  
+  
+public String getName() {  
+    String s=&quot;adaf&quot;;  
+    return name;  
+}  
+  
+public void setName(String name) {  
+    this.name = name;  
+}
+  
+} 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Student is a Class to Transport from client to server. so the class must serialization and deserialization.&lt;/p&gt;
+
+&lt;p&gt;next is main method class&lt;/p&gt;
+
+&lt;p&gt;import java.io.*;&lt;/p&gt;
+
+&lt;p&gt;public class ObjectStreamDemo {
+    private static final String filePath = “/home/lin/a.txt”;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public static void main(String[] args) {
+    // writeObj();  
+    readObj();
+}
+
+public static void writeObj() {
+    Student s = new Student();
+    s.setId(8);
+    s.setName(&quot;张三&quot;);
+    s.countryName = &quot;USA&quot;;
+
+    try {
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(filePath));
+        oos.writeObject(s);
+        oos.close();
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+}
+
+public static void readObj() {
+    try {
+        ObjectInputStream ooi = new ObjectInputStream(new FileInputStream(filePath));
+        try {
+            Object obj = ooi.readObject();
+            Student s = (Student) obj;
+            //  person s=(person)obj;       
+            System.out.println(&quot;id:&quot; + s.getId() + &quot;,name:&quot; + s.getName() + &quot;,countryName:&quot; + s.countryName);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        ooi.close();
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+} }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;when writeObject run, create a file ,let’s see it.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;vim -b writeObject.result
+::%!xxd
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0000000: aced 0005 7372 0007 5374 7564 656e 74a1  ....sr..Student.
+0000010: 640c a8a5 23ff d402 0003 4900 0269 644c  d...#.....I..idL
+0000020: 0004 6e61 6d65 7400 124c 6a61 7661 2f6c  ..namet..Ljava/l
+0000030: 616e 672f 5374 7269 6e67 3b4c 0003 7365  ang/String;L..se
+0000040: 7871 007e 0001 7870 0000 0008 7400 06e5  xq.~..xp....t...
+0000050: bca0 e4b8 8970                           .....p
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;next is writeObject.result.resolve&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;aced 0005:  Magic number
+73 : Class
+72 : ClassDesc
+0007: Class length
+5374 7564 656e 74 Student
+a1 640c a8a5 23ff d4: suid
+02 : flags
+0003 : numFields
+49 : tcode  assign to first fields. ascii is I int type
+00 02: 即 表示 field length is 2
+69 64: id field name
+4c : L second field tcode ,Class type
+0004: second field length is 4
+6e61 6d65: name second field name
+74: field class Type TC_STRING
+0012: field signature length
+4c 6a61 7661 2f6c 616e 672f 5374 7269 6e67 3b : Ljava/lang/String;
+
+4c : the same as above
+0003 : field length is 3
+7365 78 : sex
+71: field class Type TC_REFERENCE
+007e 0001 : reference to Ljava/lang/String
+78 :  Attemps to read in the next block data header (if any)
+  then TC_ENDBLOCKDATA
+70 : TC_NULL superDesc is null
+0000 0008 : id value
+74 : TC_STRING
+00 06 length 6
+e5 bca0 e4b8 89 : 张三
+70 : TC_NULL
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">This article is talk about RMI principle, source code is openjdk-7-fcs-src-b147-27_jun_2011.zip .</summary></entry></feed>
