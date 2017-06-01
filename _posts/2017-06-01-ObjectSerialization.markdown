@@ -22,7 +22,7 @@ Student.java
 
 
 
-	import java.io.Serializable;
+    import java.io.Serializable;
     
     public class Student implements Serializable {  
 	  
@@ -74,9 +74,9 @@ next is main method class
     
     
 
-import java.io.*;
+    import java.io.*;
 
-public class ObjectStreamDemo {
+    public class ObjectStreamDemo {
     private static final String filePath = "/home/lin/a.txt";
 
     public static void main(String[] args) {
